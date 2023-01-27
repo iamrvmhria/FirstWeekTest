@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form_row" style="gap: 15px; ">
+    <div class="card1" style=" border:2px solid rgb(247, 243, 243);">
+        <div class="header1" style="display:flex; flex-direction: row;flex-wrap: wrap;align-content: stretch;justify-content: space-between;">
+            <div class="event" >Event</div>  
+            <div class="btn"><button style="color: white; background-color: rgb(18, 124, 245); border-color: rgb(255, 255, 255); border-radius: 15%;">Close</button></div>
+            </div>
+    <div>
+            <div class="form_row">
+            <label for="Ename">Event Name</label>
+            <input type="text" id="Ename" name="Ename"><br><br>
+            </div>
+            <div class="form_row">
+            <label for="Sdate">Start Date</label>
+            <input type="datetime-local" id="Sdate" name="Sdate"><br><br>
+            </div>
+            <div class="form_row">
+            <label for="Edate">End Date</label>
+            <input type="datetime-local" id="Edate" name="Edate"><br><br>
+            </div>
+            <div class="form_row">
+            <label for="All-day">All-day</label>
+            <input type="checkbox"><br> <br>
+            </div>
+            <div class="form_row">
+            <label for="Calendar">Calender</label>
+            <input type="date" id="Calendar" name="Sdate"><br><br>
+            </div>
+            <div class="form_row">
+            <p><label for="details">Details</label></p>
+            <textarea id="details" name="details" rows="4" cols="50"></textarea>
+            </div>
+            <div style="float: right;">
+               <button class="header1" style="font-size: 12px; height: 30px; width: 80px; border-radius: 10%; border-color: aliceblue;">Reset</button>
+               <button class="header2" style="font-size: 12px; height: 30px; width: 80px; border-radius: 10%; border-color: aliceblue;">Save</button>
+            </div>
+    </div>
+    </div>
+    <div class="card2" style=" border:2px solid rgb(247, 243, 243);">
+        <div class="header2" style="display:flex; flex-direction: row;flex-wrap: wrap;align-content: stretch;justify-content: space-between;">
+            <div class="style" >Style</div> 
+            <div style="display: flex;">
+            <div class="btn1"><button style="color: white; background-color: rgb(49, 205, 49); border-color: rgb(255, 255, 255); border-radius: 15%;">Header</button></div>
+            <div class="btn1"><button style="color: white; background-color: rgb(49, 205, 49); border-color: rgb(255, 255, 255);">Content</button></div>
+            <div class="btn1"><button style="color: white; background-color: rgb(49, 205, 49); border-color: rgb(255, 255, 255);border-radius: 15%">Buttons</button></div> 
+            </div>
+            </div>
+    <div>
+            <div class="form_col">
+            <label for="Ffamily">Font Family</label>
+           <select id="Ffamily">
+            <option value="arial">Arial</option>
+            <option value="serif">Serif</option>
+            <option value="sans">Sans-Serif</option>
+           </select>
+            </div>
+            <p>Font Weight</p>
+            <div class="radio_btn">
+                <input type="radio" id="Fweight1" name="Fweight1" value="400">
+            <label for="Fweight1">400</label><br><br>
+            <input type="radio" id="Fweight2" name="Fweight2" value="500">
+            <label for="Fweight2">500</label><br><br>
+            <input type="radio" id="Fweight3" name="Fweight3" value="700">
+            <label for="Fweight3">700</label><br><br>
+            </div>
+            <div class="form_col">
+            <label for="Bg">Background</label>
+            <input type="color" id="Bg" name="Bg"><br><br>
+            </div>
+            <div class="form_col">
+            <label for="Font-color">Font Color</label>
+            <input type="color" ><br><br>
+            </div>
+            <div class="form_col">
+            <label for="Fs">Font Size(px)</label>
+            <input type="number" id="Fs" name="Fs"><br><br>
+            </div>
+            <div style="float: right;">
+                <button class="header1" style="font-size: 12px; height: 30px; width: 80px; border-radius: 10%; border-color: aliceblue;">Back</button>
+                <button class="header2" style="font-size: 12px; height: 30px; width: 80px; border-radius: 10%; border-color: aliceblue;">Done</button>
+             </div>
+    </div>
+    </div>
+    </div>
+
+</body>
+</html>
